@@ -1,0 +1,7 @@
+interface:
+  display_name: "Review AstrBot Plugin"
+  short_description: "Review AstrBot plugins against local framework source."
+  default_prompt: "Use $review-astrbot-plugin to review this AstrBot plugin against the local c:\\astrbot\\AstrBot implementation."
+
+policy:
+  allow_implicit_invocation: true
