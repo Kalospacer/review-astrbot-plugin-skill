@@ -1,0 +1,17 @@
+{
+  "skill_name": "review-astrbot-plugin",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review this plugin C:\\astrbot\\astrbot_plugin_mood_of_the_moment using the review-astrbot-plugin skill",
+      "expected_output": "A detailed code review in Chinese covering code quality, main.py specific rules, logger imports, data_dir usage, no yielding in LLM hooks, and 3 famous figures judging it at the end.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review this plugin C:\\astrbot\\astrbot_plugin_content_safety_guard using the review-astrbot-plugin skill",
+      "expected_output": "A detailed code review checking for AstrBot specific rules, correct method signatures, and the 3 famous figures code review board.",
+      "files": []
+    }
+  ]
+}
